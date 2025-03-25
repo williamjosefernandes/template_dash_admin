@@ -1,6 +1,6 @@
 {
-  "name": "Fut Academy",
-  "short_name": "Fut Academy",
+  "name": "Template",
+  "short_name": "Template",
   "description": "Sistema de Gerenciamento de Escola de Futebol",
   "start_url": "/",
   "display": "standalone",

@@ -1,19 +1,8 @@
-import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { 
-  Users, 
-  Calendar, 
-  Award, 
-  ClipboardList, 
-  DollarSign, 
-  Settings, 
+import {
   LogOut, 
-  Trophy, 
-  BarChart2, 
-  MessageSquare, 
+  Trophy,
   LayoutDashboard,
-  Medal,
-  Brain
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -23,17 +12,6 @@ interface SidebarProps {
 
 const menuItems = [
   { icon: LayoutDashboard, text: 'Dashboard', path: '/' },
-  { icon: Users, text: 'Alunos', path: '/alunos' },
-  { icon: Trophy, text: 'Professores', path: '/professores' },
-  { icon: Calendar, text: 'Agenda', path: '/agenda' },
-  { icon: Award, text: 'Turmas', path: '/turmas' },
-  { icon: Medal, text: 'Campeonatos', path: '/campeonatos' },
-  { icon: ClipboardList, text: 'Avaliações', path: '/avaliacoes' },
-  { icon: BarChart2, text: 'Desempenho', path: '/desempenho' },
-  { icon: DollarSign, text: 'Financeiro', path: '/financeiro' },
-  { icon: MessageSquare, text: 'Comunicações', path: '/comunicacoes' },
-  { icon: Brain, text: 'Inteligência Artificial', path: '/ia' },
-  { icon: Settings, text: 'Configurações', path: '/configuracoes' },
 ];
 
 export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
@@ -62,7 +40,7 @@ export default function Sidebar({ isOpen, toggleSidebar }: SidebarProps) {
         <div className="p-5 border-b border-green-700">
           <div className="flex items-center space-x-2">
             <Trophy size={24} />
-            <h2 className="text-2xl font-bold">Fut Academy</h2>
+            <h2 className="text-2xl font-bold">Template</h2>
           </div>
         </div>
 

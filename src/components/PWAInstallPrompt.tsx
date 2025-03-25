@@ -68,7 +68,7 @@ export function PWAInstallPrompt() {
             <Download className="text-green-600" size={20} />
           </div>
           <div>
-            <p className="font-medium">Instalar Fut Academy</p>
+            <p className="font-medium">Instalar</p>
             {isIOS ? (
               <p className="text-sm text-gray-600">
                 Toque em <span className="inline-flex items-center"><img src="/icons/ios-share.svg" alt="Share" className="w-4 h-4 mx-1" /> Compartilhar</span> e selecione "Adicionar à Tela Inicial"
